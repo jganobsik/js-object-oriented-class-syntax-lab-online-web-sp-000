@@ -8,6 +8,7 @@ class BoardMember{
   veto(){
     return 'No, I must disagree'
   }
+  
   approve(){
     return 'You can do that!'
   }
@@ -22,7 +23,8 @@ class BoardMember{
   }
 }
 
-class Ceo extends BoardMember {
+
+class Ceo extends BoardMember{
   hireEmployee(){
     return "Welcome aboard!"
   }
